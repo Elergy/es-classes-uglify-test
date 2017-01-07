@@ -1,0 +1,18 @@
+{
+  "name": "es6-classes-uglify-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node node_modules/webpack/bin/webpack.js --config webpack.config.js",
+    "run": "node out.js"
+  },
+  "author": "Elergy",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack": "^1.14.0"
+  }
+}
